@@ -4,7 +4,7 @@ Create a new branch the following way.
 git checkout -b branchname
 ```
 Push the branch you made to your server repo the following way.
-``bash
+```bash
 git push origin branchname
 ```
 
