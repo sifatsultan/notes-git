@@ -14,3 +14,8 @@ git merge branchname
 git branch -d branchname
 ```
 
+Remove branches in the remote that has been removed from local
+```bash
+git fetch --prune
+git push origin --delete test
+```
